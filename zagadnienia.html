@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zagadnienia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .header img {
+            width: 120px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 30px 0;
+        }
+
+        .nav-links a {
+            padding: 12px 20px;
+            background-color: #3498db;
+            color: white;
+            border-radius: 5px;
+            margin: 5px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .nav-links a:hover {
+            background-color: #2980b9;
+        }
+
+        .content {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .content img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .gallery-item {
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery p {
+            font-size: 1em;
+            color: #555;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <img src="rastrowa.jpg" alt="">
+        <h1>Zagadnienia</h1>
+    </div>
+
+    <div class="nav-links">
+        <a href="index.html">Strona główna</a>
+        <a href="wektorowa.html">Grafika Wektorowa</a>
+        <a href="trojwymiarowa.html">Grafika Trójwymiarowa</a>
+        <a href="zagadnienia.html">Zagadnienia</a>
+    </div>
+
+    <div class="content">
+        <div class="content-text">
+            <p>Grafika rastrowa to sposób reprezentowania obrazu jako siatki pikseli. Każdy piksel ma przypisany kolor i jasność, a całość tworzy obraz. Grafika rastrowa jest używana w przypadku zdjęć, obrazów o dużej szczegółowości, jak fotografie, obrazy 3D, itp. Jednym z jej głównych ograniczeń jest utrata jakości przy powiększaniu obrazu, ponieważ rozdzielczość pikseli jest stała.</p>
+        </div>
+        
+    </div>
+
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="obraz1z.jpg">
+            <p>Rozdzielczość to liczba pikseli wyświetlanych na ekranie lub w obrazie, zazwyczaj wyrażana jako szerokość x wysokość (np. 1920x1080). Im wyższa rozdzielczość, tym więcej detali i ostrzejszy obraz. Standardy to m.in. 720p (HD), 1080p (Full HD), 1440p (2K) i 2160p (4K).
+</p>
+        </div>
+        <div class="gallery-item">
+            <img src="obraz2z.jpg">
+            <p>Model RGB (Red, Green, Blue) łączy trzy kolory podstawowe: czerwony, zielony i niebieski. Każdy z nich ma wartość od 0 do 255, co pozwala uzyskać 16,7 miliona kolorów.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="obraz3z.jpg">
+            <p>Grafika rastrowa vs. wektorowa: Grafika rastrowa (np. JPEG, PNG) składa się z pikseli, co oznacza, że traci jakość przy powiększaniu. Grafika wektorowa (np. SVG, EPS) pozwala na nieskończoną skalowalność bez utraty jakości.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="obraz4z.jpg">
+            <p>Pixel art: Styl grafiki, w którym obraz tworzony jest za pomocą pikseli, przypominający wygląd starych gier komputerowych. Jest to popularne w grach retro i w sztuce cyfrowej.</p>
+        </div>
+    </div> 	
+
+</body>
+</html>
